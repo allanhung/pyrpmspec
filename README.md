@@ -9,4 +9,8 @@ Generate RPM Spec file
     
 # Usage
 
+    export RPMBUILDROOT=/root/rpmbuild
+    export SRCDIR=/opt/grafana/sources
+    export SPECSDIR=/opt/grafana/specs
+    
     pyrpmspec go https://github.com/grafana/grafana 4.5.0-beta1 --tag v
